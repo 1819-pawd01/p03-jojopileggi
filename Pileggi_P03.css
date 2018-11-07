@@ -1,0 +1,47 @@
+/*
+*Jojo Pileggi
+*Due Date
+*Lab 06
+*/
+
+/* The universal selector */ 
+
+* {
+
+}  
+
+/* Body attributes here */
+
+body {
+    background-color: lightsteelblue;
+    color: palevioletred;
+    font-family: serif;
+} 
+
+h1 { color: palevioletred; font-size: 46px;}
+
+td {color: royalblue; font-size: 16px;}
+th {color: blue; font-size: 17px; background-color: aliceblue}
+
+table, th, td {
+    border: 1px solid black;
+}
+table{
+    border-collapse: collapse; 
+}
+
+thead, tfoot { background-color:  aliceblue; }
+tbody {background-color: pink}
+
+a:link {
+		Text-decoration: underline;
+		}
+	a:visited {
+		Color: cornflowerblue;
+		}
+	a:active /* clicking on link without releasing it */
+	a:hover/*placing mouse over link */
+	a:focus /*focusing on one element on the page*/	{
+		Color: red;
+		text-decoration: underline;
+		}
